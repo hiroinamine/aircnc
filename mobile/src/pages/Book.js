@@ -30,7 +30,6 @@ export default function Book({ navigation }) {
         headers: { user_id }
       }
     );
-    console.log(result);
     Alert.alert('Solicitação de reserva enviada.');
     navigation.navigate('List');
   }
